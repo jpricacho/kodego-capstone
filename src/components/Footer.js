@@ -1,12 +1,11 @@
 import React from 'react';
-import { MDBFooter } from 'mdb-react-ui-kit';
 import BusinessSharpIcon from '@mui/icons-material/BusinessSharp';
 import EmailSharpIcon from '@mui/icons-material/EmailSharp';
 import CallSharpIcon from '@mui/icons-material/CallSharp';
 
 export default function App() {
   return (
-    <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
+    <div bgColor='light' className='text-center text-lg-start text-muted'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
           {/* <span>Get connected with us on social networks:</span> */}
@@ -81,6 +80,6 @@ export default function App() {
           LuckyGTransport
         </a>
       </div>
-    </MDBFooter>
+    </div>
   );
 }
